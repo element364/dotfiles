@@ -66,7 +66,7 @@ set mouse=a
 " colorscheme OceanicNext
 " let g:airline_theme='oceanicnext
 
-" colorscheme nova
+colorscheme nova
 
 " Prettier config
 let g:prettier#autoformat = 0
