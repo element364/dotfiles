@@ -10,6 +10,10 @@ Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
 Plug 'alampros/vim-styled-jsx'
 Plug 'posva/vim-vue'
+Plug 'blockloop/vim-swigjs'
+Plug 'w0rp/ale'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --bin' }
+Plug 'junegunn/fzf.vim'
 Plug 'prettier/vim-prettier', { 'do': 'npm install' }
 " Plug 'mhartington/oceanic-next'
 " Plug 'sheerun/vim-polyglot'
