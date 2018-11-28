@@ -55,6 +55,7 @@ set viewdir=~/dotvim/vim_backups//
 set showcmd
 
 map <C-n> :NERDTreeToggle<CR>
+map <C-p> :FZF<CR>
 
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 
