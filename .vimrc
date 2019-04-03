@@ -8,7 +8,7 @@ Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 map <C-n> :NERDTreeToggle<CR>
 
 Plug 'vim-airline/vim-airline'
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+" Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'mattn/emmet-vim' 
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
@@ -32,6 +32,8 @@ Plug 'prettier/vim-prettier', { 'do': 'npm install' }
 " Plug 'mhartington/oceanic-next'
 " Plug 'sheerun/vim-polyglot'
 Plug 'trevordmiller/nova-vim'
+Plug 'arcticicestudio/nord-vim'
+Plug 'neoclide/coc.nvim', {'do': { -> coc#util#install()}}
 
 let g:deoplete#enable_at_startup=1
 
@@ -81,7 +83,8 @@ set mouse=a
 " colorscheme OceanicNext
 " let g:airline_theme='oceanicnext
 
-colorscheme nova
+" colorscheme nova
+colorscheme nord
 
 " Prettier config
 let g:prettier#autoformat = 0
